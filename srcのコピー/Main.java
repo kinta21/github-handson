@@ -19,7 +19,8 @@ public class Main {
         for (Entry<Integer, String> entry : tshirtMap1.entrySet()) {
             tshirtMap1.put(entry.getKey(), entry.getValue());
 
-            System.out.println("管理番号:" + entry.getKey() + "　　在庫状況:" + entry.getValue());}
+            System.out.println("管理番号:" + entry.getKey() + "　　在庫状況:" + entry.getValue());
+        }
             Map<Integer, String> tshirtMap2 = null;
 
         try {
