@@ -21,7 +21,7 @@ public class Main {
 
             System.out.println("管理番号:" + entry.getKey() + "　　在庫状況:" + entry.getValue());
         }
-            Map<Integer, String> tshirtMap2 = null;
+        Map<Integer, String> tshirtMap2 = null;
 
         try {
             System.out.println("管理番号を入力してください。");
